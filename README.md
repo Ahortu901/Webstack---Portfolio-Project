@@ -63,7 +63,5 @@ Currently all user stories are being handled by team using the current trello bo
 - [Priscilla Bioh](https://github.com/Prissylove)
   
 <footer style="position: fixed; bottom: 0; width: 100%; background-color: #00FF00; height: 60px">
-      <p style="text-align: center; margin: 20px">
-	All rights reserved ©2023 :tm:
-      </p>
-    </footer>
+      <p style="text-align: center; margin: 20px">All rights reserved ©2023</p>
+</footer>
