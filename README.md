@@ -54,10 +54,16 @@ Currently all user stories are being handled by team using the current trello bo
 ```
 ```
 
-# Help fix Bug :bug:
-- [Report Bugs](mailto:ahortuderrick0@gmail.com)
+# Help Us fix Bug :bug:
+[Report Bugs](mailto:ahortuderrick0@gmail.com)
   
 # Authors :black_nib:
 - [Ahortu derrick](https://github.com/Ahortu90)
   
 - [Priscilla Bioh](https://github.com/Prissylove)
+  
+<footer style="position: fixed; bottom: 0; width: 100%; background-color: #00FF00; height: 60px">
+      <p style="text-align: center; margin: 20px">
+	All rights reserved ©2023 :tm:
+      </p>
+    </footer>
