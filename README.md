@@ -14,28 +14,28 @@ The app would feature a GPS that will indicate locations of specific locations t
 Additionally, there would be suggestions on waste segregation. In Ghana, waste segregation is one of the major problems in the circular economy. 
 Being able to collect different types of waste would help in the recycling process and help in reusing certain items again.
 
-<Technologies and Languages required for the web application:
+<h3>Technologies and Languages required for the web application:<h3/>
 **HTML, CSS, JavaScript – Frontend
 **Python – Backend
 
 App Users:
 **Households in Ghana
 
-Problems the app will solve:
-**Delays in waste collection
+<h3>Problems the app will solve:<h3/>
+***Delays in waste collection
 **Waste segregation
 
-Possible Limitations
-**The app will most likely be limited to households in urban areas
-**There are chances that some locations might be difficult to navigate because of discrepancies in the GPS in Ghana. (Some locations are not properly mapped)
+<h3>Possible Limitations<h3/>
+***The app will most likely be limited to households in urban areas
+***There are chances that some locations might be difficult to navigate because of discrepancies in the GPS in Ghana. (Some locations are not properly mapped)
 
-Possible Solutions
-**Train households in rural areas on the use of the map
-**Improve integration of locations in the GPS in Ghana
+<h3>Possible Solutions<h3/>
+***Train households in rural areas on the use of the map
+***Improve integration of locations in the GPS in Ghana
 
 
-Existing Solutions
-**Coliba Waste Collection Application (Ghana)
+<h3>Existing Solutions<h3/>
+***Coliba Waste Collection Application (Ghana)
 
 Similarities and Differences
 The similarity between this proposed application and that of Coliba is the ability for households to request waste collection services.
