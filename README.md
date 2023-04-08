@@ -42,12 +42,17 @@ Being able to collect different types of waste would help in the recycling proce
 - The difference is that Coliba is was only made to support Android however the suggested web application will exist on both IOS and Android
 
 
-## API and Methods
+## API and Methods :console:
 ```
 http://ghana.wasteapp.com/v1
 ```
 Others would include api remote, controllers etc.
 
+## Project Management
+Currently all user stories are being handled by team using the current trello board for the project. It can be viewed [here](https://trello.com/invite/userworkspace59049493/ATTIe74db98fb9c585a66c7381bfd3dc1e578B499C73)
+
+## Usage :dolphin:
+
 ## Authors
-![Ahortu derrick](https://github.com/Ahortu90)
-![Priscilla Bioh](https://github.com/Prissylove)
+[Ahortu derrick](https://github.com/Ahortu90)
+[Priscilla Bioh](https://github.com/Prissylove)
