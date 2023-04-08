@@ -55,7 +55,7 @@ Currently all user stories are being handled by team using the current trello bo
 ```
 
 # Help fix Bug :bug
-- [Report Bugs](mailto: ahortuderrick0@gmail.com)
+- [Report Bugs](mailto:ahortuderrick0@gmail.com)
   
 # Authors :black_nib:
 - [Ahortu derrick](https://github.com/Ahortu90)
