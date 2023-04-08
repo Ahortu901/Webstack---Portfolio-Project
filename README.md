@@ -1,4 +1,5 @@
 ALX AFRICA
+<hr>
 RESEARCH & PROJECT PROPOSAL
 WASTE COLLECTION WEB APPLICATION
 A waste collection app for efficient and effective waste collection and management in Ghana (rural & urban areas)
