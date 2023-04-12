@@ -51,8 +51,13 @@ Being able to collect different types of waste would help in the recycling proce
 Currently all user stories are being handled by team using the current trello board for the project. It can be viewed [here](https://trello.com/invite/userworkspace59049493/ATTIe74db98fb9c585a66c7381bfd3dc1e578B499C73)
 
 ## Usage :
-```
-```
+
+Installing dependance
+# Windows users:
+* ``python -m pip install -r requirement.txt``
+# Linux & Mac Users:
+* ``python3 -m pip install -r requirement.txt``  
+
 
 # Help Us fix Bug :bug:
 [Report Bugs](mailto:ahortuderrick0@gmail.com)
