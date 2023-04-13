@@ -1,72 +1,119 @@
-body {
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
-    background-color: #0c0c29; /* dark blue-black color */
-    background-image: linear-gradient(120deg, #0a101d, #2d194e); /* blue-black neon light effect */
-  }
-.navbar-nav {
-    max-width: 600px;
-    margin: auto;
-    font-size: 20px;
-    font-weight: bold;
+}
+  
+  /* Set background color, font, and color for body */
+  body {
+    background: url(img/hero-background-travel.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: #333;
+}
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 1rem;
+}
+  
+  nav ul li {
+    margin-right: 1rem;
+}
+  
+  nav ul li a {
+    margin-left: 20px;
+    color: #fcf8f8;
+    text-decoration: none;
 }
 
-a.nav-lick {
-    color: #fff;
+.brand  {
+    color: #530daf;
+    font-weight: bold;
+    margin-right: auto;
 }
-.hero-box {
-    background: url("img/R.jpg") center;
-    padding-bottom: 29px;
-    color: #fff;
+
+#nav1:hover {
+    color: #0878f8;
     text-align: center;
 }
 
-h1.hero-title {
-    text-shadow: 0 3px 3px rgba(0,0,0,0.4);
-    color: rgb(250, 250, 250);
-    font-family: Poppins, sans-serif;
-    font-weight: bold;
-    font-size: 36px;
-    max-width: 600px;
-    margin: 25px auto;
+#nav2:hover {
+    color: #0878f8;
+    text-align: center;
 }
 
-p.hero-subtitle {
-    background-color: rgba(52,43,43,0.54);
-    font-style: italic;
-    max-width: 600px;
-    margin: 25px auto;
-    color: #fff;
-  }
+#nav3:hover {
+    color: #0878f8;
+    text-align: center;
+}
 
-p {
-    max-width: 600px;
-    margin: 25px auto;
-    color: #fff;
+#nav4:hover {
+    color: #0878f8;
+    text-align: center;
 }
-.btn {
-    color: #271446;
-    font-size: 20px;
-    background-color: aquamarine;
+
+  /* Style the sections */
+  section {
+    padding: 2rem;
 }
-.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
-    color: var(--bs-btn-active-color);
-    background-color: var(--bs-btn-active-bg);
-    border-color: var(--bs-btn-active-border-color);
+  
+  section h1, section h2 {
+    margin-bottom: 1rem;
 }
+  
+  /* Style the home section */
+  #home {
     
-.btn:hover {
-    color: var(--bs-btn-hover-color);
-    background-color: var(--bs-btn-hover-bg);
-    border-color: var(--bs-btn-hover-border-color);
+    text-align: center;
+    color: #fff;
+}
+#home h1{
+    font-size: 46px;
 }
 
-.features-boxed{
-    background: rgba(230, 203, 203, 0);
+#home h3{
+    font-size: 20px;
 }
-.features-boxed h1 {
-    color: var(--bs-purple);
+
+#home p{
+    padding-top: 20px;
+    font-size: 16px;
+}
+  /* Style the about us section */
+  #about {
+    background-color: #fff;
+}
+  
+  /* Style the services section */
+  #services {
+    background-color: #f8f8f8;
+}
+  
+  #services ul {
+    margin-top: 1rem;
+}
+  
+  #services ul li {
+    margin-bottom: 0.5rem;
+}
+  
+  /* Style the contact us section */
+  #contact {
+    background-color: #333;
+    color: #fff;
+    background-size: cover;
     text-align: center;
-    font-weight: bold;
-    font-size: 30px;
 }
+  
+  /* Add any additional CSS styles as needed for your website */
+  
+  
