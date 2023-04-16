@@ -1,7 +1,7 @@
 # ALX AFRICA
 <hr>
 
-# RESEARCH (project at ALx Africa Software Engineering Program)
+# RESEARCH (final project for the ALX 2022/23 Program Cohort 6 members.)
 * **WASTE COLLECTION WEB APPLICATION**
 ``A waste collection app for efficient and effective waste collection and management in Ghana (rural & urban areas)``
 
