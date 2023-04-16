@@ -13,8 +13,10 @@ body, h1, h2, h3, p, ul, li {
   
   /* Style the navigation bar */
   nav {
+    
+    padding: 1rem;
     background-color: transparent;
-    padding-top: 20px;
+    font-weight: bold;
     
 }
   
@@ -26,22 +28,22 @@ body, h1, h2, h3, p, ul, li {
 }
   
   nav ul li {
-    margin-left: 1rem;
+    margin-left: 2rem;
     font-size: 20px;
 }
   
   nav ul li a {
     font-style: bold;
-    margin-left: 20px;
     color: #2e2b1d;
     text-decoration: none;
 }
 
 .brand  {
-    color: #530daf;
+    color: #423e47;
     font-weight: bold;
-    margin-right: auto;
-    padding-right: 120px;
+    margin-right: 3rem;
+    justify-items: left;
+    font-size: 30px;
 }
 
 #nav5 {
@@ -71,7 +73,7 @@ body, h1, h2, h3, p, ul, li {
 
   /* Style the sections */
   section {
-    padding: 2rem;
+    padding: 10rem;
 }
   
   section h1, section h2 {
@@ -87,50 +89,14 @@ body, h1, h2, h3, p, ul, li {
     color: #fff;
 
 }
-.container-fluid {
-  grid-column:auto;
-}
-/*#home{
 
-}*/
-#home h1{
+#hero-box h1{
     font-size: 46px;
+    font-style: oblique;
 }
 
-#home h3{
-    font-size: 20px;
+#hero-box h3{
+    font-size: 30px;
 }
 
-#home p{
-    padding-top: 20px;
-    font-size: 16px;
-}
-  /* Style the about us section */
-  #about {
-    background-color: #fff;
-}
-  
-  /* Style the services section */
-  #services {
-    background-color: #f8f8f8;
-}
-  
-  #services ul {
-    margin-top: 1rem;
-}
-  
-  #services ul li {
-    margin-bottom: 0.5rem;
-}
-  
-  /* Style the contact us section */
-  #contact {
-    background-color: #333;
-    color: #fff;
-    background-size: cover;
-    text-align: center;
-}
-  
-  /* Add any additional CSS styles as needed for your website */
-  
-  
+ 
