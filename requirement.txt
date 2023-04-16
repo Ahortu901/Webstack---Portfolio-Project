@@ -1,3 +1,6 @@
 flask
+fastapi
 flask-login
 flask-sqlalchemy
+uvicorn
+starlette
