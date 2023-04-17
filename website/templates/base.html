@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="description" content="Welcome to Alx | Waste Collection. We provide professional waste management services to help protect the environment. Contact us for reliable waste collection and disposal solutions.">
         <meta name="keywords" content="Alx, Waste Collection, waste management, waste disposal, environment">
-        <meta name="author" content="Your Name">
+        <meta name="author" content="Ahortu Derrick, Bioh Priscilla">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{% block title %}Alx | Waste Collection{% endblock %}</title>
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
@@ -18,9 +18,31 @@
                 <li><a href="/about" id="nav2">About Us</a></li>
                 <li><a href="/services" id="nav3">Services</a></li>
                 <li id="nav5">|</li>
-                <li><a href="/contact" id="nav4">Contact Us</a></li>
+                <li><a href="/sign-up" id="nav4">Contact Us</a></li>
             </ul>
           </nav>
+
+          {% with messages = get_flashed_messages(with_categories=true)%}
+          {% if messages %}
+            {% for category, messsage in messages %}
+            {% if category == 'error' %}
+            <div class="alert alert-danger alert-dismissable fade show" role="alert">
+                {{ message}}
+                <button type="button" class="close" data-dismiss="alert">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            {% else %}
+            <div class="alert alert-success alert-dismissable fade show" role="alert">
+                {{ message}}
+                <button type="button" class="close" data-dismiss="alert">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            {% endif %}
+            {% endfor %}
+          {%endif%}
+          {%endwith%}
         {% block content %}
         <!-- Home section -->
         <section id="hero-box">
