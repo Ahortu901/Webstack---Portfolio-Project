@@ -48,7 +48,7 @@ Being able to collect different types of waste would help in the recycling proce
 * **Others would include api remote, controllers etc.**
 
 ## Project Management:
-Currently all user stories are being handled by team using the current trello board for the project. It can be viewed [here](https://trello.com/invite/userworkspace59049493/ATTIe74db98fb9c585a66c7381bfd3dc1e578B499C73)
+Currently all user stories are being handled by team using the current trello board for the project. It can be viewed [here](https://trello.com/invite/b/AvgaHYXX/ATTI2646f00e98aa23568342699c8e0803424389B2F5/portfolio-project-pitch)
 
 ## Usage :
 
