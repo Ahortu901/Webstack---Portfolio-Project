@@ -3,4 +3,6 @@ fastapi
 flask-login
 flask-sqlalchemy
 uvicorn
+pydantic
+pydantic[email,dotenv]
 starlette
