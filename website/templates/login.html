@@ -1,28 +1,31 @@
-{% extends "base.html" %}
-{% block title %}Login{% endblock title %}
-{% block content %}
-<form method="POST">
-    <h3 align="center">Login</h3>
-    <div class="form-group">
-        <label for="email">Email Address</label>
-        <input type="email" class="form-control"
-            id="email"
-            name="email"
-            placeholder="Enter email"
-            required
-        />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>alx-login</title>
+</head>
+<body>
+    <div class="register">
+        <h2>Login</h2>
     </div>
-    <br>
-    <div class="form-group">
-        <label for="password">Password</label>
-        <input type="password"
-            id="password"
-            class="form-contril"
-            name="password"
-            placeholder="Enter password"
-        />
+    <div class="login_frame">
+        <h4>Welcome Back</h4>
+        <h4 class="Thanks">Please Login to Continue</h4>
+        <div class="entry">
+            <input class="user" type="text" placeholder="Username"><br>
+            
+            <input class="pass" type="password" placeholder="Password"><br>
+            
+        <button class="reg">Login</button><br><br>
+        
+        <h5>Not having account? <a href="signup.html" ><span>Create new account</span></a></h5>
+
+        </div>
     </div>
-    <br />
-    <button type="submit" class="btn btn-primary">Login</button>
-</form>
-{% endblock content %}
+
+    
+</body>
+</html>

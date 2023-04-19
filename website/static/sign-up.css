@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+}
+.register{
+    padding-left: 540px;
+    color: brown;
+    font-size: 22px;
+}
+
+.label {
+    background: url(/img/sign.jpg);
+}
+.login_frame{
+    margin-left:800px;
+    background-color: white;
+    width: 400px;
+    height: 540px;
+    box-shadow:0,0,0.5;
+    border: 30px; 
+     
+    border-radius:25px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.entry{
+    margin-top: 40px;
+    text-align: center; 
+}
+
+input{
+    width: 220px;
+    border: 0px;
+    border-radius: 16px;
+    height:25px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
+h4{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+    padding-top: 48px;
+    margin-left: 80px;
+    margin-bottom: 0px;
+}
+.Thanks{
+    padding-top: 0px;
+    margin-top: 1px;
+    color: brown;
+    font-size: 15px;
+}
+
+.reg{
+    height: 36px;
+    color: white;
+    background-color: blue;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 150px;
+}
+
+span{
+    color: green;
+}
+h5{
+    padding-top: 25px;
+    font-size: 17px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    
+a{
+    text-decoration: none;
+}    
+    
+    
+    
